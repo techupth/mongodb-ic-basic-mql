@@ -8701,11 +8701,14 @@ const movies = [
 ];
 
 const newMovies = movies.map((movie) => {
-  return {
+  const _movie = {
     ...movie,
     rating: movie.ratings,
     genres: movie.genres.split("|"),
   };
+
+  delete _movie.ratings;
+  return _movie;
 });
 
 import fs from "fs/promises";
