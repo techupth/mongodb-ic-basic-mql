@@ -2,7 +2,7 @@
 
 ### Usage
 
-1) ให้ Clone repo https://github.com/techupth/mongodb-ic-basic-mql เพื่อสร้างข้อมูลเริ่มต้นลงใน MongoDB
+1) ให้ Clone repo เพื่อสร้างข้อมูลเริ่มต้นลงใน MongoDB
 
 2) ตรวจสอบว่า MongoDB เปิดอยู่
 
